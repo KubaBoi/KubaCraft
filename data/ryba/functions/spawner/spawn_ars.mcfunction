@@ -102,6 +102,56 @@ execute as @e[tag=ar98] run kill
 execute as @e[tag=ar99] run kill
 
 execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar0"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar1"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar2"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar3"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar4"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar5"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar6"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar7"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar8"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar9"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar10"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar11"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar12"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar13"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar14"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar15"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar16"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar17"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar18"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar19"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar20"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar21"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar22"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar23"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar24"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar25"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar26"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar27"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar28"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar29"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar30"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar31"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar32"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar33"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar34"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar35"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar36"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar37"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar38"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar39"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar40"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar41"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar42"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar43"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar44"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar45"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar46"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar47"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar48"],Invisible:1b,Invulnerable:1}
+execute at @p run summon armor_stand ~ ~ ~ {Tags:["ar49"],Invisible:1b,Invulnerable:1}
+
 scoreboard objectives remove random
 scoreboard objectives add random dummy
 

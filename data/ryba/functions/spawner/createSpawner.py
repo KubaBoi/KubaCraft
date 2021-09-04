@@ -1,12 +1,13 @@
 import json
 
-count = 1
+count = 50
 pref = "ar"
+tag = "spawned"
 path = "data/ryba/functions/spawner/"
 freq = 50
-radius = 10
-dist = 5
-max_mobs = 2
+radius = 75
+dist = 10
+max_mobs = 3
 
 biomes = [
     ("blue_cold", "blue_cold", "minecraft:pig"),
@@ -30,11 +31,11 @@ with open(path + "spawn_ars.mcfunction", "w") as f:
     for i in range(count):
         cmd = "execute at @p run summon armor_stand ~ ~ ~ {Tags:[\"" + pref + str(i) + "\"],Invisible:1b,Invulnerable:1}\n"
         f.write(cmd)
-        cmd = "scoreboard objectives remove random\n"
-        f.write(cmd)
-        cmd = "scoreboard objectives add random dummy\n"
-        f.write(cmd)
 
+    cmd = "\nscoreboard objectives remove random\n"
+    f.write(cmd)
+    cmd = "scoreboard objectives add random dummy\n"
+    f.write(cmd)
     f.write("\n")
 
     for i in biomes:
@@ -98,7 +99,7 @@ for b in biomes:
 
                     cmd = ("execute as @s if entity @s[tag=" + pref + str(i) + "] if entity @e[tag=ar0,scores={random=" +
                      str(entity["floor"]) + ".." + str(entity["ceil"]) + "}] run summon " +
-                     entity["name"] + " ~ ~ ~ {Tags:[\"" + pref + str(i) + "_m\"]," + entity["tags"] + "}\n")
+                     entity["name"] + " ~ ~ ~ {Tags:[\"" + pref + str(i) + "_m\", " + tag + "]," + entity["tags"] + "}\n")
 
                     f.write(cmd)
 

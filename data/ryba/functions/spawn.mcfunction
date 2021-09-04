@@ -1,0 +1,1 @@
+execute at @p run spreadplayers ~ ~ 5 30 false @e[type=minecraft:creeper]

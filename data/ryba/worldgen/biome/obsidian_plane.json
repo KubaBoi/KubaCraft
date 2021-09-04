@@ -1,0 +1,73 @@
+{
+    "surface_builder": "ryba:obsidian_plane",
+    "depth": 0.12,
+    "scale": 0.1,
+  
+    "temperature": 0.5,
+    "humidity": 0.9,
+    "altitude": 0,
+    "weirdness": 0,
+  
+    "downfall": 0.4,
+    "precipitation": "none",
+    "category": "desert",
+    "player_spawn_friendly": true,
+    "creature_spawn_probability": 0.001,
+    "effects": {
+      "sky_color": 2762535,
+      "fog_color": 2762535,
+      "water_color": 2762535,
+      "water_fog_color": 2762535,
+      "grass_color": 2762535,
+      "foliage_color": 2762535
+    },
+    "starts": [
+        "ryba:basalt_tree"
+    ],
+    "spawners": {
+      "ambient": [],
+      "creature": [],
+      "misc": [],
+      "monster": [
+        {
+        "type": "minecraft:creeper",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 9
+      }
+    ],
+      "water_ambient": [],
+      "water_creature": []
+    },
+    "spawn_costs": {},
+    "carvers": {
+      "air": []
+    },
+    "features": [
+      [],
+      [
+        "minecraft:lake_lava"
+      ],
+      [],
+      [
+        "minecraft:monster_room"
+      ],
+      [
+        "minecraft:ore_coal",
+        "minecraft:ore_iron",
+        "minecraft:ore_redstone",
+        "minecraft:ore_copper",
+        "minecraft:ore_lapis"
+      ],
+      [],
+      [],
+      [],
+      [
+        "minecraft:spring_lava"
+      ],
+      [
+        "minecraft:freeze_top_layer"
+      ]
+    ]
+  }
+  

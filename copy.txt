@@ -1,0 +1,9 @@
+,
+          {
+            "biome": "ryba:blue_cold_mountain",
+            "parameters": {
+              "altitude": 0,
+              "offset": 0,
+              "weirdness": 0
+            }
+          }

@@ -1,0 +1,80 @@
+{
+  "surface_builder": "ryba:blue_cold",
+  "depth": 0.12,
+  "scale": 0.05,
+
+  "temperature": 0.5,
+  "humidity": 0.9,
+  "altitude": 0,
+  "weirdness": 0,
+
+  "downfall": 0.4,
+  "precipitation": "none",
+  "category": "desert",
+  "player_spawn_friendly": true,
+  "creature_spawn_probability": 0.001,
+  "effects": {
+    "sky_color": 8795825,
+    "fog_color": 23039,
+    "water_color": 744702,
+    "water_fog_color": 329011,
+    "grass_color": 8428543,
+    "foliage_color": 23039
+  },
+  "starts": [
+    "ryba:portal"
+  ],
+  "spawners": {
+    "ambient": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+      {
+        "type": "minecraft:enderman",
+        "weight": 1,
+        "minCount": 2,
+        "maxCount": 9
+      }
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": []
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_water"
+    ],
+    [],
+    [
+      "minecraft:monster_room"
+    ],
+    [
+      "minecraft:ore_coal",
+      "minecraft:ore_dirt",
+      "minecraft:ore_clay"
+    ],
+    [],
+    [
+      "minecraft:ice_spike",
+      "minecraft:iceberg_blue",
+      "minecraft:pile_ice",
+      "minecraft:ore_copper"
+    ],
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:patch_grass_plain",
+      "minecraft:patch_tall_grass_2",
+      "minecraft:flower_plain_decorated",
+      "minecraft:plain_vegetation",
+      "minecraft:ice_patch"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ]
+}

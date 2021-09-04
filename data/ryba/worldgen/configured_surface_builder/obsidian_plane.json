@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:nether_forest",
+    "config": {
+      "top_material": {
+        "Name": "minecraft:obsidian",
+        "Properties": {
+          "snowy": "false"
+        }
+      },
+      "under_material": {
+        "Name": "minecraft:crying_obsidian"
+      },
+      "underwater_material": {
+        "Name": "minecraft:diamond_ore"
+      }
+    }
+  }
+  

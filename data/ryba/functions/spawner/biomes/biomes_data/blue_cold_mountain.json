@@ -1,0 +1,22 @@
+{
+    "entities":[
+        {
+            "name": "minecraft:zombie",
+            "tags": "Invulnerable:1,PersistenceRequired:1,HandItems:[{Count:1,id:\"minecraft:netherite_axe\"},{}],CustomName:\"\\\"hitler\\\"\",HandDropChances:[0.1f,0.0f]",
+            "floor": 0,
+            "ceil": 50 
+        },
+        {
+            "name": "minecraft:pig",
+            "tags": "",
+            "floor": 50,
+            "ceil": 80
+        },
+        {
+            "name": "minecraft:bat",
+            "tags": "",
+            "floor": 80,
+            "ceil": 100
+        }
+    ]
+}

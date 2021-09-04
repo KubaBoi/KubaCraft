@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:mountain",
+  "config": {
+    "top_material": {
+      "Name": "minecraft:red_wool",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "under_material": {
+      "Name": "minecraft:sandstone"
+    },
+    "underwater_material": {
+      "Name": "minecraft:sponge"
+    }
+  }
+}
